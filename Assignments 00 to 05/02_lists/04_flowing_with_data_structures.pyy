@@ -1,0 +1,21 @@
+
+
+def add_three_copies(lst,data):
+  for i in range(3):
+   lst.append(data)
+
+def main():
+  message = input("Entera message to copy. ")
+  lst = []
+  print("Before list: ",lst)
+  add_three_copies(lst,message)
+  print("After lst: ",lst)
+
+if __name__ =="__main__":
+  main()
+
+
+
+
+
+
